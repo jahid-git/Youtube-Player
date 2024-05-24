@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/drawer_videos"
+            android:title="Videos"
+            android:icon="@drawable/ic_videos"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/drawer_playlist"
+            android:title="Playlist"
+            android:icon="@drawable/ic_playlist"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/drawer_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_profile"
+            tools:ignore="HardcodedText" />
+    </group>
+
+    <item
+        android:title="Communications"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/drawer_about"
+                android:title="About us"
+                android:icon="@drawable/ic_about"/>
+            <item
+                android:id="@+id/drawer_website"
+                android:title="Our website"
+                android:icon="@drawable/ic_website"/>
+            <item
+                android:id="@+id/drawer_facebook"
+                android:title="Facebook"
+                android:icon="@drawable/ic_facebook"/>
+            <item
+                android:id="@+id/drawer_youtube"
+                android:title="YouTube"
+                android:icon="@drawable/ic_youtube"/>
+        </menu>
+    </item>
+
+    <item
+        android:title="Others"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/drawer_share_link"
+                android:title="Share link"
+                android:icon="@drawable/ic_share"/>
+
+            <item
+                android:id="@+id/drawer_rate_us"
+                android:title="Rate us"
+                android:icon="@drawable/ic_rate_us"/>
+
+            <item
+                android:id="@+id/drawer_feedback"
+                android:title="Feedback"
+                android:icon="@drawable/ic_feedback"/>
+        </menu>
+    </item>
+</menu>

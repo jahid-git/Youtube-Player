@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">YouTube Player</string>
+
+    <string name="ok_btn">Ok</string>
+    <string name="yes_btn">Yes</string>
+    <string name="no_btn">No</string>
+    <string name="stop_btn">Stop</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="exit_btn">Exit</string>
+
+    <string name="exit_dialog_title">Exit!</string>
+    <string name="exit_dialog_descriptions">Do you want to exit the app?</string>
+
+    <string name="drawer_open_hint">Drawer is Open</string>
+    <string name="drawer_close_hint">Drawer is Close</string>
+
+    <string name="about_us">Welcome to our vibrant software community! We are a tight-knit group passionate about all things tech. Whether you\'re a seasoned developer or just starting, our community fosters collaboration, knowledge-sharing, and innovation. Join us for insightful discussions, coding challenges, and a supportive environment where everyone\'s expertise is valued. Together, let\'s code the future!</string>
+
+</resources>
